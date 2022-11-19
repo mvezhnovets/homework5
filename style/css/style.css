@@ -1,0 +1,190 @@
+/* hind-siliguri-300 - latin */
+@font-face {
+   font-family: 'Hind Siliguri light';
+   font-style: normal;
+   font-weight: 300;
+   src: url('./../fonts/hind-siliguri-v12-latin-300.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../fonts/hind-siliguri-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../fonts/hind-siliguri-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../fonts/hind-siliguri-v12-latin-300.svg#HindSiliguri') format('svg'); /* Legacy iOS */
+ }
+ /* hind-siliguri-500 - latin */
+ @font-face {
+   font-family: 'Hind Siliguri medium';
+   font-style: normal;
+   font-weight: 500;
+   src: url('./../fonts/hind-siliguri-v12-latin-500.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../fonts/hind-siliguri-v12-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../fonts/hind-siliguri-v12-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-500.woff') format('woff'), /* Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../fonts/hind-siliguri-v12-latin-500.svg#HindSiliguri') format('svg'); /* Legacy iOS */
+ }
+ /* hind-siliguri-regular - latin */
+ @font-face {
+   font-family: 'Hind Siliguri normal';
+   font-style: normal;
+   font-weight: 400;
+   src: url('./../fonts/hind-siliguri-v12-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../fonts/hind-siliguri-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../fonts/hind-siliguri-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../fonts/hind-siliguri-v12-latin-regular.svg#HindSiliguri') format('svg'); /* Legacy iOS */
+ }
+ /* hind-siliguri-600 - latin */
+ @font-face {
+   font-family: 'Hind Siliguri semi bold';
+   font-style: normal;
+   font-weight: 600;
+   src: url('./../fonts/hind-siliguri-v12-latin-600.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../fonts/hind-siliguri-v12-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../fonts/hind-siliguri-v12-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-600.woff') format('woff'), /* Modern Browsers */
+        url('./../fonts/hind-siliguri-v12-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../fonts/hind-siliguri-v12-latin-600.svg#HindSiliguri') format('svg'); /* Legacy iOS */
+ }
+ * {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+   box-sizing: border-box;
+   display: inline-block;
+}
+.wrapper {
+   width: 1600px;
+   height: 955px;
+   margin-left: 100px;
+}
+.header {
+   width: 1600px;
+height: 90px;
+font-family: 'Hind Siliguri medium';
+text-transform: uppercase;
+font-size: 14px;
+line-height: 23px;
+overflow: hidden;
+}
+.logo {
+height: 26px;
+overflow: hidden;
+}
+.menu {
+   overflow: hidden;
+}
+.home {
+   margin:  0 0 0 159px;
+}
+.about, .product, .blog, .shop, .contact {
+   margin:  0 0 0 40px;
+}
+.search {
+margin:  0 0 0 157px;
+}
+.basket {
+margin:  0 0 0 32px;
+}
+.account {
+   width: 35px;
+height: 23px;
+/* overflow: hidden; */
+margin: 5px 0 0 32px;
+}
+.body_body {
+   width: 556px;
+height: 426px;
+margin-top: 129px;
+}
+.body_top_text {
+   width: 166px;
+height: 26px;
+font-family: 'Hind Siliguri medium';
+text-transform: uppercase;
+font-size: 16px;
+line-height: 26px;
+color: #C72535;
+}
+.body_title_text {
+   width: 550px;
+   height: 220px;
+   font-family: 'Hind Siliguri normal';
+   font-size: 61px;
+line-height: 73px;
+padding-top: 3px;
+}
+.text_backgraund {
+   width: 484px;
+height: 73px;
+   color: #247CC0;
+   background-color: #b2d5f1;
+   font-family: 'Hind Siliguri semi bold';
+   font-size: 61px;
+   line-height: 73px;
+   padding-left: 10px;
+
+}
+.body_info_text {
+   width: 515px;
+   height: 54px;
+   font-family: 'Hind Siliguri normal';
+   opacity: 0.6;
+   padding-top: 29px;
+}
+.body_battom {
+   width: 151px;
+   height: 58px;
+   font-family: 'Hind Siliguri semi bold';
+   text-transform: uppercase;
+   background: #247CC0;
+   font-size: 16px;
+line-height: 26px;
+   margin-top: 36px;
+   text-align: center;
+   padding-top: 21px;
+   color: #ffffff;
+}
+.body_sale_price {
+   width: 71px;
+height: 27px;
+font-family: 'Hind Siliguri medium';
+margin-left: 31px;
+}
+.body_price {
+   width: 55px;
+height: 27px;
+font-family: 'Hind Siliguri light';
+text-decoration: line-through;
+opacity: 0.5;
+}
+/* .body_image img {
+   width: 643px;
+height: 611px;
+margin: 54px -86px -50px 0px;
+} */
+.image {
+   width: 643px;
+height: 611px;
+background: url("./../image/81Z-7PzoB9L\ 1.png");
+margin: 0px 0px -128px 0px;
+}
+.conteiner_logo {
+width: 1140px;
+height: 237px;
+background: #ffffff;
+}
+.conteiner_logo_sunshine {
+   width: 163px;
+height: 85px;
+margin: 76px 0 76px 118px;
+}
+.conteiner_logo_pure, .conteiner_logo_automotive, .conteiner_logo_handcrafted{
+   width: 163px;
+height: 85px;
+margin-left: 84px;
+}
